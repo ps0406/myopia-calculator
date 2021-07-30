@@ -1,0 +1,196 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #0088ec;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #0088ec;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  width: 48px;
+  height: 48px;
+  margin-right: 15px;
+}
+
+/* Common */
+.top {
+  top: 0px;
+  left: 0px;
+  width: max-width;
+  height: 70px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #868f9433;
+  opacity: 1;
+  margin-left: 0px;
+}
+
+.question-progress {
+  font-size: 0.75rem;
+  padding-bottom: 8px;
+}
+
+.question {
+  display: none;
+}
+
+.box {
+  padding: 120px 80px 0px 80px;
+  position: relative;
+}
+
+.form-check {
+  margin-top: 25px;
+}
+
+.references {
+  color: #979ea2;
+  font-size: 0.5rem;
+  justify-self: end;
+}
+
+.references p {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.references span {
+  font-weight: bold;
+}
+
+.question-btn {
+  text-align: right;
+}
+
+input[type="radio"]:checked + label {
+  font-weight: bold;
+}
+
+
+
+/* Home */
+.home-button:hover span {
+  display: none;
+}
+.home-button:hover:before {
+  content: "Get Started";
+  color: white;
+  text-decoration: none;
+}
+.home-button:hover {
+  height: 48px;
+  width: 200px;
+  text-decoration: none;
+  background: #0d6efd;
+  opacity: 1;
+  padding: 12px;
+}
+
+/* First Question */
+.question-age {
+  color: #667178;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: 24px 0px 8px;
+}
+
+.question-btn {
+  margin-top: 10%;
+}
+
+.form-select {
+  width: 60%;
+}
+
+/* Qeustion two */
+.question-two .references {
+  margin-top: 225px;
+}
+
+/* Question three */
+.question-three .references {
+  margin-top: 120px;
+}
+
+/* Question four */
+.question-four .references {
+  margin-top: 180px;
+}
+
+/* Question five */
+.question-five .references {
+  margin-top: 85px;
+}
+
+/* Question six */
+.question-six .references {
+  margin-top: 135px;
+}
+
+.complete {
+  width: 148px;
+}
+
+/* Footer*/
+.bottom {
+  font-size: 0.75rem;
+  position: absolute;
+  text-align: right;
+  padding: 15px 141px;
+  height: 50px;
+  background-color: #3f494d;
+  z-index: 1;
+  bottom: 1;
+}
+
+.footer-link {
+  border-right: 2px solid;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+  padding-left: 20px;
+}
+
+/* Media */
+/* Common */
+@media (min-width: 575.99px) and (max-width: 991.98px) {
+  .box {
+    padding: 60px 60px 0px 60px;
+  }
+}
+@media (max-width: 575.98px) {
+  .box {
+    padding: 32px 32px 32px 32px;
+  }
+}
+
+/* Footer */
+@media  (max-width: 767.98px) {
+  .bottom {
+    text-align: center;
+    padding: 15px 0px;
+  }
+}
+
